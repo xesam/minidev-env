@@ -2,7 +2,7 @@
     "name": "@mini-dev/env",
     "version": "0.2.0",
     "description": "miniapp env config",
-    "miniprogram": "libs",
+    "miniprogram": "libs/index.js",
     "main": "libs/index.js",
     "types": "libs/index.d.ts",
     "scripts": {
@@ -10,12 +10,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+git@github.com:miniapp-develop/env.git"
+        "url": "git+git@github.com:xesam/minidev-env.git"
     },
     "bugs": {
-        "url": "https://github.com/miniapp-develop/env"
+        "url": "https://github.com/xesam/minidev-env"
     },
-    "homepage": "https://github.com/miniapp-develop/env",
+    "homepage": "https://github.com/xesam/minidev-env",
     "devDependencies": {
         "jest": "^29.7.0"
     },

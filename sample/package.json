@@ -1,20 +1,20 @@
 {
     "name": "@mini-dev/env-sample",
-    "version": "0.1.1",
+    "version": "0.0.0",
     "description": "miniapp env config",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+git@github.com:miniapp-develop/env.git"
+        "url": "git+git@github.com:xesam/minidev-env.git"
     },
     "bugs": {
-        "url": "https://github.com/miniapp-develop/env"
+        "url": "https://github.com/xesam/minidev-env"
     },
-    "homepage": "https://github.com/miniapp-develop/env",
+    "homepage": "https://github.com/xesam/minidev-env",
     "dependencies": {
-        "@mini-dev/env": "^0.1.1"
+        "@mini-dev/env": "file:.."
     },
     "devDependencies": {},
     "keywords": [
