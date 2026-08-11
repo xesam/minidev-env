@@ -12,3 +12,5 @@ sample
 .eslintrc.js
 .eslintrc.cjs
 .prettierrc.json
+test
+jest.config.js
