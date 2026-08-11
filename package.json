@@ -1,8 +1,8 @@
 {
     "name": "@mini-dev/env",
     "version": "0.2.0",
-    "description": "miniapp env config",
-    "miniprogram": "libs/index.js",
+    "description": "微信原生小程序多环境配置工具：按 envVersion 区分 develop/trial/release，支持环境依赖回退、启动参覆盖与自定义环境",
+    "miniprogram": "libs",
     "main": "libs/index.js",
     "types": "libs/index.d.ts",
     "scripts": {
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+git@github.com:xesam/minidev-env.git"
+        "url": "git+ssh://git@github.com:xesam/minidev-env.git"
     },
     "bugs": {
         "url": "https://github.com/xesam/minidev-env"
@@ -21,10 +21,15 @@
     },
     "keywords": [
         "miniapp",
+        "miniprogram",
+        "weixin",
+        "wx",
         "微信",
         "小程序",
         "env",
-        "环境变量"
+        "envVersion",
+        "环境变量",
+        "多环境"
     ],
     "author": "xesam",
     "license": "ISC"

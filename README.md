@@ -1,5 +1,8 @@
 # @mini-dev/env
 
+[![npm version](https://img.shields.io/npm/v/@mini-dev/env.svg)](https://www.npmjs.com/package/@mini-dev/env)
+[![license](https://img.shields.io/npm/l/@mini-dev/env.svg)](./LICENSE)
+
 > `@mini-dev` 小程序开发工具箱的一部分 —— 面向微信**原生**小程序的零依赖运行时环境配置工具。
 
 `@mini-dev/env` 是 [`@mini-dev`](https://github.com/miniapp-develop) 工具箱中的一个轻量成员，专门解决「按 `envVersion` 区分多套环境参数」这一件小事。它不依赖任何框架、不做构建期注入，发布的即是源码，即装即用。
@@ -22,9 +25,11 @@
 
 ### 安装
 
-```shell script
+```shell
 npm install @mini-dev/env
 ```
+
+> 小程序使用 npm 包必须经过「构建 npm」：在微信开发者工具中打开项目，菜单栏 **工具 → 构建 npm**，完成后会生成 `miniprogram_npm` 目录，之后 `require('@mini-dev/env')` 即可正常引用。本包已在 `package.json` 中声明 `miniprogram` 字段指向源码目录，构建 npm 时会自动取用。
 
 ### 获取/设置当前环境
 
